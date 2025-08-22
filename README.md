@@ -5,6 +5,12 @@ Instead of overwhelming notifications, FocusMate surfaces the **right task at th
 
 ---
 
+## Status
+This project is a work in progress. Right now, I’m building the basic structure and experimenting with simple Python code for task tracking.  
+Future updates will add calendar integration and prioritization as I learn more.
+
+---
+
 ## 🚀 Features (Planned)
 - Task management with priorities  
 - Calendar & reminder integration  
