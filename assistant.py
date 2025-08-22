@@ -25,7 +25,7 @@ class PersonalAssistant:
         for i, task in enumerate(self.tasks, start=1):   #Loop through the tasks starting from 1
             status = "✔️" if task["done"] else "❌"  #Show check if done, cross if not
             due = f"(due {task['due_time']})" if task["due_time"] else""  #Show due date if it exits
-            print(f"{i} {task['description']} {status} {due}")  #Print the task number, description , status and its due time.
+            print(f"{i}. {task['description']} {status} {due}")  #Print the task number, description , status and its due time.
     
     #Method to mark a task as completed
     def complete_task(self, index):
