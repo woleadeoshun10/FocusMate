@@ -1,10 +1,7 @@
 import datetime  # This import will handle dates
 
 #PerosnalAssistant Class
-class PersonalAssistant:
-    def __init__(self):
-        self.tasks = [] #Created an empty list to store tasks as dictionaries
-        
+
     #Method to add a new task
     def add_task(self,description,due_time=None):
         task = {
